@@ -16,7 +16,6 @@
 	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f23f43 for default red */
 	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
 	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
-
 	/* accent colors */
 	--accent-1: hsl(190, 70%, 60%); /* links */
 	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
@@ -65,7 +64,7 @@
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--moon-icon-url: url('.'); /* custom icon url */
 	--moon-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
@@ -787,12 +786,12 @@ button.button_dd4f85 /* small buttons */,
 	background: var(--bg-3);
 	border-radius: 50%;
 }
-/* custom dm button background instead of icon */
-/* .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
+
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+	background: url('https://i.imgur.com/0CWAALD.png');
 	background-color: transparent !important;
 	background-size: cover;
-} */
+}
 
 /* vencord spotify player support */
 #vc-spotify-player {
